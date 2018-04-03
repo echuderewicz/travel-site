@@ -1,0 +1,27 @@
+Section 1
+  Lecture 1 - Course Overview
+
+Section 2
+  Lecture 2 - What is Git?
+  Lecture 3 - Intro to Git
+  Lecture 4 - Git your hands dirty
+    git --version
+    git config --global user.name "Eric Chuderewicz"
+    git config --global user.email "echuderewicz@gmail.com"
+    creating a brand new reposity: git init
+    git add <name_of_file>
+    git commit -m "my first commit"
+    to restore your files type below:
+    git checkout -- .
+    to clone: navigate to the directory you would like to clone to:
+    git clone https://github.com/LearnWebCode/welcome-to-git.git
+  Lecture 5 - Setup you github
+    create a new travel-site repo on Github server
+    on local machine, clone the starter files:
+    git clone https://github.com/LearnWebCode/travel-site-files.github
+    rename to travel-site
+    git remote -v (this tells you what Git thinks is the remote site)
+    git remote set-url origin https://github.com/echuderewicz/travel-site.git
+    now confirm:
+    git remote -v (you have just updated the location of your remote server)
+    
