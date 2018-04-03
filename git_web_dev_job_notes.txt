@@ -1,9 +1,11 @@
-Section 1
+Section 1:
   Lecture 1 - Course Overview
 
-Section 2
+Section 2:
   Lecture 2 - What is Git?
+
   Lecture 3 - Intro to Git
+
   Lecture 4 - Git your hands dirty
     git --version
     git config --global user.name "Eric Chuderewicz"
@@ -15,6 +17,7 @@ Section 2
     git checkout -- .
     to clone: navigate to the directory you would like to clone to:
     git clone https://github.com/LearnWebCode/welcome-to-git.git
+
   Lecture 5 - Setup you github
     create a new travel-site repo on Github server
     on local machine, clone the starter files:
@@ -24,4 +27,25 @@ Section 2
     git remote set-url origin https://github.com/echuderewicz/travel-site.git
     now confirm:
     git remote -v (you have just updated the location of your remote server)
-    
+
+Section 3:
+  Lecture 6 - Node.js & NPM
+    automation and organization explained
+
+  Lecture 7 - A quick note
+
+  Lecture 8 - Node.js introduction
+    3 main parts:
+      What is Node.js
+      Help install
+      Example:
+        node experiment: create a file and retrieve an image from the internet
+
+  Lecture 9 - NPM - Node Package Manager
+    npm install jquery (we did this first but then deleted it).
+    A better way is to create a grocery list:
+    npm init (this creates the package.json file)
+    npm install jquery --save (this updates the package.json file)
+    npm install normalize.css --save
+    to regenerate if you deleted jquery and normalize
+    npm install
