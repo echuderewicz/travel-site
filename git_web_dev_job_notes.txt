@@ -49,3 +49,19 @@ Section 3:
     npm install normalize.css --save
     to regenerate if you deleted jquery and normalize
     npm install
+  Lecture 10 - important note about version numbers
+    copied over the populated package.json file
+
+Section 4:
+  Lecture 11 - gulp
+    installing gulp globally
+      sudo npm install gulp-cli --global (need sudo, video did not tell you this, but it worked)
+    adding gulp within project
+    npm install gulp --save-dev
+    touch gulpfile.js
+    need gulp plugins to do anything useful
+    npm install gulp-watch --save-dev
+    gulp watch (will start up the watch commmand. See gulp file)
+    ctrl-c to stop gulp watch
+
+  Lecture 12 - Gulp and PostCss
