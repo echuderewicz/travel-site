@@ -65,3 +65,13 @@ Section 4:
     ctrl-c to stop gulp watch
 
   Lecture 12 - Gulp and PostCss
+    what is a css workflow - variables, nesting etc.
+    important gulp and node terms
+    Autoprefixer
+    PostCss = fastest to compile
+    gulp.src, gulp.dest, pipe
+    install PostCss:
+      npm install gulp-postcss --save-dev
+      npm install autoprefixer --save-dev
+      npm install postcss-simple-vars --save-dev
+      npm install postcss-nested --save-dev
