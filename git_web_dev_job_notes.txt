@@ -101,6 +101,15 @@ Section 5:
 
     *makes the relationship between our HTML and CSS Clear
 
-    in the following classname .large-hero__title, the underscore indicates that the following is an element of the block.
+    in the following classname .large-hero__title, the underscore prefix indicates that the following is an SUBELEMENT of the LARGER .large-hero block.
 
-    to create a nesting. use the ampersand "&". For instance, right the above as "&__title" while nesting. This will then get transformed by postcss as .large-hero__title.
+    to create nesting. use the ampersand "&". For instance, right the above as "&__title" while nesting. This will then get transformed by postcss as .large-hero__title.
+
+  Lecture 15 -
+    discussion on rem.
+    font-size, padding, or margin should be declared using
+    rem. based on html element --> 1.5rem x 16px (default html) = 24px. Using px as a unit sets things in stone which isn't good.
+
+    styled buttons and was first exposed to using the -- nomenclature. for instance btn--orange, btn--large. This is how you specify MODIFIERS.
+
+  Lecture 16 -

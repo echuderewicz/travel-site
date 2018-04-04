@@ -496,6 +496,7 @@ img {
     font-weight: 300;
     color: #2f5572;
     font-size: 4.8rem;
+    margin: 0;
 
   }
 
@@ -503,5 +504,53 @@ img {
     font-weight: 300;
     color: #2f5572;
     font-size: 2.9rem;
+    margin: 0;
+
+  }
+
+.large-hero__description {
+    color: #fff;
+    font-size: 1.875rem;
+    font-weight: 100;
+    /* gives the text that slight extra punch*/
+    text-shadow: 2px 2px 0 rgba(0,0,0,.1);
+    max-width: 30rem; /*this was calculated from 480px/16*/
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+.btn {
+  /*styling the default button..see below*/
+
+  background-color: #2f5572;
+  color: #FFF;
+  /*remove the underline*/
+  text-decoration: none;
+  padding: .75rem 1.2rem; /* to/btm first then left/right*/
+
+  /*it's parent and surrounding elements will be aware
+  of it's vertical padding*/
+  display: inline-block;
+
+
+
+
+
+
+}
+
+/*this is the way to indicate modifiers*/
+
+.btn--orange {
+    background-color: #d59541;
+  }
+
+/*styling the orange button specifically*/
+
+.btn--large{
+    font-size: 1.25rem;
+    padding: 1.1rem 1.9rem; /* vertical first then horizontal*/
 
   }
