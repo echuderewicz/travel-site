@@ -88,4 +88,19 @@ Section 5:
     started using css imports, created a css modules and base subfolder within the styles folder
     positioned the large hero block vertically and horizontally over the banner image
 
-  Lecture 14 - What is BEM
+  Lecture 14 - What is the BEM methodology
+    B. - block
+    E. - element - belongs to a block
+    M. - modifier - a change to the default state of an object
+
+    *CSS selectors should target elements directly with classes, instead of relying on type selectors, descendent selectors, and the cascade.
+
+    *Because we are limiting cascade we are free to move blocks around and reuse them throughout the page. Blocks are independant and self contained.
+
+    *identify patterns, and the create single responsibility blocks
+
+    *makes the relationship between our HTML and CSS Clear
+
+    in the following classname .large-hero__title, the underscore indicates that the following is an element of the block.
+
+    to create a nesting. use the ampersand "&". For instance, right the above as "&__title" while nesting. This will then get transformed by postcss as .large-hero__title.
