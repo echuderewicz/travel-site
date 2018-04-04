@@ -1,0 +1,27 @@
+.large-hero {
+  position: relative;
+
+  /*experiment: this pushed entire banner image down
+  margin-top: 400px;*/
+}
+
+.large-hero__text-content {
+  position: absolute;
+
+  /*experiment*/
+  background-color: yellow;
+
+  /* centering horizontally - this is fairly straightforward*/
+  width: 100%;
+  text-align: center;
+
+  /*centering vertically a little more tricky - brad's way*/
+  /* set top of block at half of image*/
+  top: 50%;
+
+  /* then raise block 1/2 the size of itself*/
+  transform: translateY(-50%);
+  left: 0;
+
+
+}

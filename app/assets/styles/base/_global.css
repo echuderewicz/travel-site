@@ -1,0 +1,12 @@
+/*style that will trickle down to all elements*/
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* make all images fit the browser window*/
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -13,17 +13,18 @@ Section 2:
     creating a brand new reposity: git init
     git add <name_of_file>
     git commit -m "my first commit"
-    to restore your files type below:
+    to restore your files if something happens type below:
     git checkout -- .
-    to clone: navigate to the directory you would like to clone to:
+    to clone from Git repo: navigate to the directory you would like to clone to on your computer:
     git clone https://github.com/LearnWebCode/welcome-to-git.git
 
-  Lecture 5 - Setup you github
+  Lecture 5 - Setup your github
     create a new travel-site repo on Github server
     on local machine, clone the starter files:
     git clone https://github.com/LearnWebCode/travel-site-files.github
-    rename to travel-site
+    rename directory to "travel-site"
     git remote -v (this tells you what Git thinks is the remote site)
+    to change the remote site:
     git remote set-url origin https://github.com/echuderewicz/travel-site.git
     now confirm:
     git remote -v (you have just updated the location of your remote server)
@@ -47,15 +48,16 @@ Section 3:
     npm init (this creates the package.json file)
     npm install jquery --save (this updates the package.json file)
     npm install normalize.css --save
-    to regenerate if you deleted jquery and normalize
+    to regenerate if you deleted jquery and normalize use command below
     npm install
   Lecture 10 - important note about version numbers
-    copied over the populated package.json file
+    copied over the populated package.json file since many packages of much later versions
+    than the udemy video (a good way to avoid the pain of things not working)
 
 Section 4:
   Lecture 11 - gulp
     installing gulp globally
-      sudo npm install gulp-cli --global (need sudo, video did not tell you this, but it worked)
+      sudo npm install gulp-cli --global
     adding gulp within project
     npm install gulp --save-dev
     touch gulpfile.js
@@ -68,10 +70,22 @@ Section 4:
     what is a css workflow - variables, nesting etc.
     important gulp and node terms
     Autoprefixer
-    PostCss = fastest to compile
-    gulp.src, gulp.dest, pipe
+    PostCss = fastest to compile, new kid on the block
+    gulp.src, gulp.dest, pipe used in gulpfile.js
     install PostCss:
       npm install gulp-postcss --save-dev
       npm install autoprefixer --save-dev
       npm install postcss-simple-vars --save-dev
       npm install postcss-nested --save-dev
+      all the above are then required into the gulpfile.js
+
+Section 5:
+  Lecture 13 - CSS File Architecture
+    file architecture - organize css code into smaller files
+    identify patterns
+    rules and guidlines to follow
+    npm install postcss-import --save-dev
+    started using css imports, created a css modules and base subfolder within the styles folder
+    positioned the large hero block vertically and horizontally over the banner image
+
+  Lecture 14 - What is BEM
