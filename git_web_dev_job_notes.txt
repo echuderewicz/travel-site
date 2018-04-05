@@ -112,4 +112,5 @@ Section 5:
 
     styled buttons and was first exposed to using the -- nomenclature. for instance btn--orange, btn--large. This is how you specify MODIFIERS.
 
-  Lecture 16 -
+  Lecture 16 - Gulp Timeout - leveraging browsersync
+    npm install browser-sync --save-dev

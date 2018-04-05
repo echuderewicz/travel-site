@@ -4,7 +4,8 @@ postcss = require('gulp-postcss'),
 autoprefixer = require('autoprefixer'),
 cssvars = require('postcss-simple-vars'),
 nested = require('postcss-nested'),
-cssImport = require('postcss-import');
+cssImport = require('postcss-import'),
+browserSync = require('browser-sync').create();
 
 gulp.task('default', function(){
   console.log('Hooray');
@@ -22,12 +23,31 @@ gulp.task('styles', function(){
 });
 
 gulp.task('watch', function(){
+
+  browserSync.init({
+    //this removed the annoying/distracting black button
+    notify: false,
+    server: {
+      baseDir: "app"
+    }
+  })
+
   watch('./app/index.html', function(){
-    gulp.start('html');
+    browserSync.reload();
   });
 
   watch('./app/assets/styles/**/*.css', function(){
-    gulp.start('styles');
+    gulp.start('cssInject');
   })
 
 });
+
+//inject css into during
+//note the 2nd argument which indicates the dependencies
+//that need to run before cssInject
+
+gulp.task('cssInject', ['styles'], function(){
+  //the temp styles has be generated prior to piping into browser-sync
+  return gulp.src('./app/temp/styles/styles.css')
+  .pipe(browserSync.stream());
+})
