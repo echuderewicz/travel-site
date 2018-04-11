@@ -124,9 +124,23 @@ Section 6
 Section 7
 
   Lecture 19 - What does Mobile First Mean
-    from a Design Context: designing around a smaller screen first, forces us to prioritize our content, anticipate most common uer actions, information architects, graphic designers, usability expters
+    from a Design Context: designing around a smaller screen first, forces us to prioritize our content, anticipate most common user actions, information architects, graphic designers, usability experts
 
     from a Development Context: Coding the site so devices don't download unnecessary data, treat the most essential view of our website as our baseline and code upwards from there. Make the site load quickly for everyone
 
     best practices for mobile first:
       design for the smallest device (smart phone) and consider this the default. All devices sizes beyond use media queries @media
+
+  Lecture 20 - Responsive Images
+    There are 2 reasons to use responsive images:
+      1. Art direction - different cropping
+      2. File Size to optimize download
+    Different ways to handle this. For the art direction reason you must
+    use the <picture> tag. 
+
+
+
+
+
+
+
