@@ -138,6 +138,12 @@ Section 7
     Different ways to handle this. For the art direction reason you must
     use the <picture> tag. 
 
+  Lecture 21 - Tips for responsive images
+    Author created images with the widths explicitely shown within the image
+    Being able to test all images especially the hi dpi versions
+    Google Chrome has a way to test pixel densities. Check 'responsive image option and change DPR to 2 (DPR stands for device pixel ratio'
+
+
 
 
 
