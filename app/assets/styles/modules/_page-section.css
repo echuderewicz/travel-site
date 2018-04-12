@@ -1,7 +1,11 @@
 .page-section {
 	/*css shorthand for top/bottom and left/right*/
 
-	padding: 4.5rem 0;
+	padding: 1rem 0;
+
+	@mixin atMedium{
+		padding: 4.5rem 0;
+	}
 
 	&--blue{
 		background: $mainBlue;

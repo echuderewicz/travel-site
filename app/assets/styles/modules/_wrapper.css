@@ -9,4 +9,19 @@ added in Lecture 22*/
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
+
+	&--medium{
+		max-width: 976px;
+	}
+
+	/*for the baseline condition (small phone)
+	nested wrappers will not have padding
+
+	essentially the 18px will apply but any
+	nested wrappers WILL NOT get additional padding*/
+
+	.wrapper{
+		padding-left: 0;
+		padding-right: 0;
+	}
 }

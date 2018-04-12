@@ -604,15 +604,92 @@ added in Lecture 22*/
 	margin-right: auto;
 }
 
+.wrapper--medium{
+		max-width: 976px;
+	}
+
+/*for the baseline condition (small phone)
+	nested wrappers will not have padding
+
+	essentially the 18px will apply but any
+	nested wrappers WILL NOT get additional padding*/
+
+.wrapper .wrapper{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 .page-section {
 	/*css shorthand for top/bottom and left/right*/
 
-	padding: 4.5rem 0;
+	padding: 1rem 0;
 
 }
+
+@media (min-width: 800px){
+
+.page-section {
+		padding: 4.5rem 0
+
+}
+	}
 
 .page-section--blue{
 		background: #2f5572;
 		color: #FFF;
+	}
+
+.headline {
+	font-weight: 300;
+	font-size: 1.9rem;
+	color: #2f5572;
+
+
+}
+
+.headline--mixin atSmall{
+		font-size: 2.875rem;
+	}
+
+.headline--centered{
+		text-align: center;
+	}
+
+.headline--orange{
+		color: #d59541;
+	}
+
+.headline--small{
+		font-size: 1.2rem;
+	}
+
+@media (min-width: 530px){
+
+.headline--small{
+			font-size: 1.875rem
+	}
+	}
+
+.headline--narrow{
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+.headline--light{
+		font-weight: 100;
+
+	}
+
+/*likes margins with ems*/
+
+.headline--b-margin-small{
+		margin-bottom: .5em;
+
+	}
+
+.headline--b-margin-large{
+		margin-bottom: 1.6em;
+
 	}
 

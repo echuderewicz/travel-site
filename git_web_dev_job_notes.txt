@@ -161,6 +161,9 @@ Section 8 - Let's Build
 
     Lots of progress was made in this section and to note: I had skipped adding part of the code from Lecture 19 which dealt with media queries so this commit will be a bit of a hodge podge.
 
+  Lecture 23 - Headline Block
+    styled the headline block for both large and small screen. Lots of back and forth. Essentially the workflow is to look at both form factors and decide what present styles are not working in the mobile form. You should go over this video multiple times to allow this to sink. There is potential for confusion to occur regarding this material. 
+
 
 
 
