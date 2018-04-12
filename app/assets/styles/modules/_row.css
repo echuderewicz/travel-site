@@ -3,13 +3,22 @@
 	/*part of creating proper clearfix method*/
 	@mixin clearfix;
 
+	background-color: yellow;
+
+	/*this below is selecting descendant divs of .row--gutters
+	which in this case is the &__4 and &__8 columns*/
+
+	&--gutters {
+		margin-right: -65px;
+	}
+
 	&--gutters > div{
 		padding-right: 65px;
 		/*without border box added the content
 		within __8 would get pushed to the following line
 		this is due to how browsers calculate width, note red
 		background to see what's going on*/
-		background-color: red;
+		/*background-color: red;*/
 		/* box-sizing: border-box; added border box to _global.css*/
 	}
 

@@ -2,6 +2,10 @@
 added in Lecture 22*/
 
 .wrapper {
+
+	/*added below to show right gutter fix*/
+	background-color: green;
+
 	padding-left: 18px;
 	padding-right: 18px;
 	

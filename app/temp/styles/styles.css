@@ -464,6 +464,13 @@ img {
   height: auto;
 }
 
+/*this is the better way to implement border box*/
+
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
 .large-hero {
   /*dark blue line below banner*/
 
@@ -595,6 +602,10 @@ img {
 added in Lecture 22*/
 
 .wrapper {
+
+	/*added below to show right gutter fix*/
+	background-color: green;
+
 	padding-left: 18px;
 	padding-right: 18px;
 	
@@ -693,6 +704,16 @@ added in Lecture 22*/
 
 	}
 
+.row {
+
+	/*part of creating proper clearfix method*/
+
+	background-color: yellow;
+
+	
+
+}
+
 /*proper clearfix method*/
 
 .row::after {
@@ -702,7 +723,12 @@ added in Lecture 22*/
 		display: table;
 	}
 
-/*part of creating proper clearfix method*/
+/*this below is selecting descendant divs of .row--gutters
+	which in this case is the &__4 and &__8 columns*/
+
+.row--gutters {
+		margin-right: -65px;
+	}
 
 .row--gutters > div{
 		padding-right: 65px;
@@ -710,9 +736,8 @@ added in Lecture 22*/
 		within __8 would get pushed to the following line
 		this is due to how browsers calculate width, note red
 		background to see what's going on*/
-		background-color: red;
-		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		/*background-color: red;*/
+		/* box-sizing: border-box; added border box to _global.css*/
 	}
 
 .row__4 {
