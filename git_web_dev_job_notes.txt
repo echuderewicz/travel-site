@@ -165,7 +165,8 @@ Section 8 - Let's Build
     styled the headline block for both large and small screen. Lots of back and forth. Essentially the workflow is to look at both form factors and decide what present styles are not working in the mobile form. You should go over this video multiple times to allow this to sink. There is potential for confusion to occur regarding this material. 
 
   Lecture 24 - Reusable Column layout
-
+    started creating a 2 column layout. Author showed how to clear a float. The sloppy way first...
+    
   Lecture 25 - Attention to Detail - part 1
 
   Lecture 26 - Attention to Detail - part 2

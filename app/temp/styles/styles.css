@@ -693,6 +693,13 @@ added in Lecture 22*/
 
 	}
 
+.row {
+
+	/*this background color was set to show the float clear fix*/
+	background-color: yellow;
+
+}
+
 .row__4 {
 		float: left;
 		width: 33.33%;
@@ -702,6 +709,11 @@ added in Lecture 22*/
 		float: left;
 		width: 66.66%;
 	}
+
+.clear-me {
+	clear: both;
+
+}
 
 
 
