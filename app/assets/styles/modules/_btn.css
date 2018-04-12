@@ -18,15 +18,15 @@
     background-color: $mainOrange;
   }
 
-  &--large{
-    font-size: 1.25rem;
+  &--large {
+
+    /*no font size is specified here so it just
+    defaults to 1rem*/
+
     padding: 1.1rem 1.9rem; /* vertical first then horizontal*/
 
+    @mixin atSmall {
+      font-size: 1.25rem;
+    }
   }
-
-
-
-
-
-
 }

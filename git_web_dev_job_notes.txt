@@ -131,6 +131,14 @@ Section 7
     best practices for mobile first:
       design for the smallest device (smart phone) and consider this the default. All devices sizes beyond use media queries @media
 
+    mixins discussed in middle of video
+      npm install postcss-mixins --save-dev
+      mixins were created in their own seperate file in the styles/base directory.
+      each mixin atSmall, atMedium, and atLarge contained a media query
+      this query was then essentially used as a trigger within certain class
+      elements within the _large-hero.css file. It almost acts like an "if" statement. if the media is "such and such", then modify "this" particular element accordingly. So everything is "triggered" by the size of the screen. This lesson is important to keep coming back to because it shows exactly how everything gets "wired" up. It's a bit complicated. 
+
+
   Lecture 20 - Responsive Images
     There are 2 reasons to use responsive images:
       1. Art direction - different cropping
@@ -138,11 +146,20 @@ Section 7
     Different ways to handle this. For the art direction reason you must
     use the <picture> tag. 
 
+
   Lecture 21 - Tips for responsive images
-    Author created images with the widths explicitely shown within the image
-    Being able to test all images especially the hi dpi versions
+    Author created images with the widths explicitely shown within the image itself. Being able to test all images especially the hi dpi versions
     Google Chrome has a way to test pixel densities. Check 'responsive image option and change DPR to 2 (DPR stands for device pixel ratio'
 
+    I came up with a way in sublime to swap images with "i" suffix version. This handles the tedium of having to go to each individual filename and append the "-i".
+
+Section 8 - Let's Build
+  Lecture 22 - Creating Reusable Blocks
+    created a wrapper class to add spacing left and right for the mobile view header text. created a dark blue line under banner - browser treat elements as in-line by default, in other words, it treats them like text, provide space below but making it block level will removed this behavior. It treats it more like a div where it's more like a square that aligns perfectly. 
+
+    also adjusted the mixins for the font sizes for the default: atTiny and atSmall. Note, there isn't atTiny, it's just that we refer to the default as that (mobile first) and that everything else above at beyond gets called out. 
+
+    Lots of progress was made in this section and to note: I had skipped adding part of the code from Lecture 19 which dealt with media queries so this commit will be a bit of a hodge podge.
 
 
 
@@ -203,7 +220,10 @@ Section 7
 
 
 
-    
+
+
+
+
 
 
 

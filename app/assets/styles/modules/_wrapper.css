@@ -1,0 +1,12 @@
+/*this generic wrapper provides padding to certain elements
+added in Lecture 22*/
+
+.wrapper {
+	padding-left: 18px;
+	padding-right: 18px;
+	
+	/*the below center the content in the screen*/
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
