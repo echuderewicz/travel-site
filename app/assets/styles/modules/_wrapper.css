@@ -3,8 +3,10 @@ added in Lecture 22*/
 
 .wrapper {
 
-	/*added below to show right gutter fix*/
+	/*not the difference*/
+
 	background-color: green;
+	overflow: hidden;
 
 	padding-left: 18px;
 	padding-right: 18px;

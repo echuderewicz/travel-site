@@ -603,8 +603,10 @@ added in Lecture 22*/
 
 .wrapper {
 
-	/*added below to show right gutter fix*/
+	/*not the difference*/
+
 	background-color: green;
+	overflow: hidden;
 
 	padding-left: 18px;
 	padding-right: 18px;
@@ -723,12 +725,14 @@ added in Lecture 22*/
 		display: table;
 	}
 
-/*this below is selecting descendant divs of .row--gutters
-	which in this case is the &__4 and &__8 columns*/
+/*this is part of gutter fix*/
 
 .row--gutters {
 		margin-right: -65px;
 	}
+
+/*this below is selecting descendant divs of .row--gutters
+	which in this case is the &__4 and &__8 columns*/
 
 .row--gutters > div{
 		padding-right: 65px;
