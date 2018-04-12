@@ -1,7 +1,17 @@
 .row {
 
-	/*this background color was set to show the float clear fix*/
-	background-color: yellow;
+	/*part of creating proper clearfix method*/
+	@mixin clearfix;
+
+	&--gutters > div{
+		padding-right: 65px;
+		/*without border box added the content
+		within __8 would get pushed to the following line
+		this is due to how browsers calculate width, note red
+		background to see what's going on*/
+		background-color: red;
+		box-sizing: border-box;
+	}
 
 	&__4 {
 		float: left;
@@ -13,9 +23,6 @@
 		width: 66.66%;
 	}
 
-}
-
-.clear-me {
-	clear: both;
+	
 
 }

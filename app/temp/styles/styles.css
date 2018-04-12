@@ -693,12 +693,27 @@ added in Lecture 22*/
 
 	}
 
-.row {
+/*proper clearfix method*/
 
-	/*this background color was set to show the float clear fix*/
-	background-color: yellow;
+.row::after {
+		content:"";
+		clear: both;
+		/* the below is for extra browser support*/
+		display: table;
+	}
 
-}
+/*part of creating proper clearfix method*/
+
+.row--gutters > div{
+		padding-right: 65px;
+		/*without border box added the content
+		within __8 would get pushed to the following line
+		this is due to how browsers calculate width, note red
+		background to see what's going on*/
+		background-color: red;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
 
 .row__4 {
 		float: left;
@@ -709,11 +724,6 @@ added in Lecture 22*/
 		float: left;
 		width: 66.66%;
 	}
-
-.clear-me {
-	clear: both;
-
-}
 
 
 
