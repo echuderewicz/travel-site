@@ -202,6 +202,9 @@ Section 9
     Here is a way to add and commit in one command:
     git commit -am "message"
 
+    Deleting a branch
+    git branch -d <name>
+
     Moving on: 
     author also showed a way to merge from github, It looked a little complicated
     and I'll problably not use it as much.
