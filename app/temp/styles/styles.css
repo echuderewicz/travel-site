@@ -603,9 +603,8 @@ added in Lecture 22*/
 
 .wrapper {
 
-	/*not the difference*/
 
-	background-color: green;
+	/*note the difference*/
 	overflow: hidden;
 
 	padding-left: 18px;
@@ -706,16 +705,6 @@ added in Lecture 22*/
 
 	}
 
-.row {
-
-	/*part of creating proper clearfix method*/
-
-	background-color: yellow;
-
-	
-
-}
-
 /*proper clearfix method*/
 
 .row::after {
@@ -738,20 +727,22 @@ added in Lecture 22*/
 		padding-right: 65px;
 		/*without border box added the content
 		within __8 would get pushed to the following line
-		this is due to how browsers calculate width, note red
-		background to see what's going on*/
-		/*background-color: red;*/
-		/* box-sizing: border-box; added border box to _global.css*/
+		this is due to how browsers calculate width*/
+		
 	}
 
-.row__4 {
+/*part of creating proper clearfix method*/
+
+@media (min-width: 800px){
+		.row__medium-4 {
 		float: left;
 		width: 33.33%;
-	}
+		}
 
-.row__8 {
-		float: left;
-		width: 66.66%;
+		.row__medium-8 {
+			float: left;
+			width: 66.66%;
+		}
 	}
 
 

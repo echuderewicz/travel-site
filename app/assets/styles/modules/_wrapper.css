@@ -3,9 +3,8 @@ added in Lecture 22*/
 
 .wrapper {
 
-	/*not the difference*/
 
-	background-color: green;
+	/*note the difference*/
 	overflow: hidden;
 
 	padding-left: 18px;

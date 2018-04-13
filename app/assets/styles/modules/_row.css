@@ -3,8 +3,6 @@
 	/*part of creating proper clearfix method*/
 	@mixin clearfix;
 
-	background-color: yellow;
-
 	/*this is part of gutter fix*/
 	&--gutters {
 		margin-right: -65px;
@@ -18,21 +16,23 @@
 		padding-right: 65px;
 		/*without border box added the content
 		within __8 would get pushed to the following line
-		this is due to how browsers calculate width, note red
-		background to see what's going on*/
-		/*background-color: red;*/
-		/* box-sizing: border-box; added border box to _global.css*/
+		this is due to how browsers calculate width*/
+		
 	}
 
-	&__4 {
+	@mixin atMedium {
+		&__medium-4 {
 		float: left;
 		width: 33.33%;
+		}
+
+		&__medium-8 {
+			float: left;
+			width: 66.66%;
+		}
 	}
 
-	&__8 {
-		float: left;
-		width: 66.66%;
-	}
+	
 
 	
 

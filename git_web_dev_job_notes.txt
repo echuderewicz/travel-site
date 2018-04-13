@@ -165,7 +165,15 @@ Section 8 - Let's Build
     styled the headline block for both large and small screen. Lots of back and forth. Essentially the workflow is to look at both form factors and decide what present styles are not working in the mobile form. You should go over this video multiple times to allow this to sink. There is potential for confusion to occur regarding this material. 
 
   Lecture 24 - Reusable Column layout
-    started creating a 2 column layout. Author showed how to clear a float. The sloppy way first...
+    started creating a 2 column layout. Author showed how to clear a float. The sloppy way first and then the right way. Author also did some convoluted gutter manipulation. Just seemed so "hacky" -- used overflow:hidden to make this work, occurred around 15 minutes into the lesson. Here is a list of what he did: 
+    
+      1. created (2) column layout
+      2. added right gutter to both columns
+      3. used border box so avoid exceeding max width
+      4. added -65px margin to parent row
+      5. this then extended beyond max width
+      6. used overflow hidden to remove the -65px
+      7. my only guess was that it was to preserver the 4/8 column row split
     
   Lecture 25 - Attention to Detail - part 1
 
