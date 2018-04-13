@@ -188,10 +188,23 @@ Section 8 - Let's Build
   Lecture 26 - Attention to Detail - part 2 - styling the text in the "our beginning" section
     more tedium
 
-
-
 Section 9
-  Lecture 27
+  Lecture 27 - GIT Branches
+    this section went through how to checkout branches. It's pretty straightforward
+    make sure working directory is clean before creating a new branch
+    git branch <name>
+    git branch (lists branches)
+    git checkout <name>
+    git checkout master (switching back to master branch)
+    now within master you can merge the branch you were working on
+    git merge <name> (this adds the branch history as well) 
+
+    Here is a way to add and commit in one command:
+    git commit -am "message"
+
+    Moving on: 
+    author also showed a way to merge from github, It looked a little complicated
+    and I'll problably not use it as much.
 
 Section 10
   Lecture 28
