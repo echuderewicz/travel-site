@@ -10,7 +10,7 @@
  */
 
 html {
-  line-height: 1.15; /* 1 */
+  /*line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -471,6 +471,10 @@ img {
 	        box-sizing: border-box;
 }
 
+a {
+	color: #d59541;
+}
+
 .large-hero {
   /*dark blue line below banner*/
 
@@ -716,6 +720,10 @@ added in Lecture 22*/
 
 	}
 
+.headline--no-t-margin {
+		margin-top: 0;
+	}
+
 /*proper clearfix method*/
 
 .row::after {
@@ -744,6 +752,11 @@ added in Lecture 22*/
 
 /*part of creating proper clearfix method*/
 
+.row__b-margin-until-medium {
+		margin-bottom: 1rem;
+
+	}
+
 @media (min-width: 800px){
 
 .row {
@@ -757,6 +770,12 @@ added in Lecture 22*/
 	
 
 }
+
+
+		.row__b-margin-until-medium {
+		margin-bottom: 0rem;
+		}
+
 		.row__medium-4 {
 		float: left;
 		width: 33.33%;
@@ -774,6 +793,28 @@ added in Lecture 22*/
 		.row__medium-8--smaller {
 			width: 63%;
 		}
+	}
+
+/*this goes against the BEM philosophy a bit
+	because we are using descendent selectors*/
+
+.generic-content-container p {
+		/*microscopic size
+		font size will default to 1rem*/
+
+		line-height: 1.65;
+		margin: 1.8rem 0;
+	}
+
+@media (min-width: 530px){
+
+.generic-content-container p {
+			font-size: 1.125rem
+	}
+	}
+
+.generic-content-container p a {
+		font-weight: 700;
 	}
 
 
