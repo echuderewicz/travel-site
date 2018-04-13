@@ -11,7 +11,7 @@ added in Lecture 22*/
 	padding-right: 18px;
 	
 	/*the below center the content in the screen*/
-	max-width: 1200px;
+	max-width: 1236px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -28,5 +28,13 @@ added in Lecture 22*/
 	.wrapper{
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	&--b-margin{
+		margin-bottom: 1rem;
+
+		@mixin atSmall {
+			margin-bottom: 3.875rem;
+		}
 	}
 }

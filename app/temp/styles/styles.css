@@ -611,7 +611,7 @@ added in Lecture 22*/
 	padding-right: 18px;
 	
 	/*the below center the content in the screen*/
-	max-width: 1200px;
+	max-width: 1236px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -629,6 +629,17 @@ added in Lecture 22*/
 .wrapper .wrapper{
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+.wrapper--b-margin{
+		margin-bottom: 1rem;
+	}
+
+@media (min-width: 530px){
+
+.wrapper--b-margin{
+			margin-bottom: 3.875rem
+	}
 	}
 
 .page-section {
@@ -734,6 +745,18 @@ added in Lecture 22*/
 /*part of creating proper clearfix method*/
 
 @media (min-width: 800px){
+
+.row {
+
+		/*below is overriding the column grid a bit: 
+		tweaking size of jane doe image 
+		and adjacent text content*/
+
+	
+
+	
+
+}
 		.row__medium-4 {
 		float: left;
 		width: 33.33%;
@@ -742,6 +765,14 @@ added in Lecture 22*/
 		.row__medium-8 {
 			float: left;
 			width: 66.66%;
+		}
+
+		.row__medium-4--larger {
+			width: 37%;
+		}
+
+		.row__medium-8--smaller {
+			width: 63%;
 		}
 	}
 

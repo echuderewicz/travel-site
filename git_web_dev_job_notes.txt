@@ -166,7 +166,7 @@ Section 8 - Let's Build
 
   Lecture 24 - Reusable Column layout
     started creating a 2 column layout. Author showed how to clear a float. The sloppy way first and then the right way. Author also did some convoluted gutter manipulation. Just seemed so "hacky" -- used overflow:hidden to make this work, occurred around 15 minutes into the lesson. Here is a list of what he did: 
-    
+
       1. created (2) column layout
       2. added right gutter to both columns
       3. used border box so avoid exceeding max width
@@ -175,67 +175,25 @@ Section 8 - Let's Build
       6. used overflow hidden to remove the -65px
       7. my only guess was that it was to preserver the 4/8 column row split
     
-  Lecture 25 - Attention to Detail - part 1
+  Lecture 25 - Attention to Detail - part 1 - making images responsive in "our beginning" section
+    added some bottom margin to 'our beginning section' using a media query mixin on the wrapper class. Adjusted for smaller screens as well.
 
-  Lecture 26 - Attention to Detail - part 2
+    Focused mainly of making on making the "first-trip" and "our-start" images responsive, this was very
+    complicated but we tested the same way we did with banner, use the "-i" versions to see which image
+    the browser serves up. 
 
-
-
-
-
-
-
+    Pretty much all the code that was added was in the index.html file....
 
 
+  Lecture 26 - Attention to Detail - part 2 - styling the text in the "our beginning" section
+    
 
 
+Section 9
+  Lecture 27
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Section 10
+  Lecture 28
 
 
 

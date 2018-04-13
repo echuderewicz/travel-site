@@ -30,6 +30,18 @@
 			float: left;
 			width: 66.66%;
 		}
+
+		/*below is overriding the column grid a bit: 
+		tweaking size of jane doe image 
+		and adjacent text content*/
+
+		&__medium-4--larger {
+			width: 37%;
+		}
+
+		&__medium-8--smaller {
+			width: 63%;
+		}
 	}
 
 	
