@@ -8,6 +8,10 @@
 		margin-right: -65px;
 	}
 
+	&--gutters-large{
+		margin-right: -100px;
+	}
+
 	/*this below is selecting descendant divs of .row--gutters
 	which in this case is the &__4 and &__8 columns*/
 
@@ -19,6 +23,16 @@
 		this is due to how browsers calculate width*/
 		
 	}
+
+	&--gutters-large > div{
+		padding-right: 100px;
+	}
+
+
+
+
+
+
 
 	&__b-margin-until-medium {
 		margin-bottom: 1rem;
@@ -48,6 +62,12 @@
 
 		&__medium-4--larger {
 			width: 37%;
+		}
+
+		&__medium-6 {
+
+			float: left;
+			width: 50%;
 		}
 
 		&__medium-8--smaller {
