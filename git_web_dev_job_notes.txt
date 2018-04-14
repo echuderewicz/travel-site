@@ -217,6 +217,7 @@ Section 10
     see above for how to name and checkout a new branch in one command
     Styled the our features section but didn't complete it (still had to finish the mobile view). Leveraged some of what was created before
     to create styling, namely 2 column layout. This section was much less tedious than the previous section. 
+  Lecture 29: continuation of styling the Our Features Section
 
 
 

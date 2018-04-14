@@ -870,21 +870,49 @@ added in Lecture 22*/
 
 .feature-item {
 	position: relative;
-	padding-left: 94px;
 	padding-bottom: 2.5rem;
 }
 
-.feature-item__icon {
-		position: absolute;
-		left: 0;
+@media (min-width: 530px){
 
+.feature-item {
+		padding-left: 94px
+}
+	}
+
+.feature-item__icon {
+
+		display: block;
+		margin: 0 auto;
+		
+	}
+
+@media (min-width: 530px){
+
+.feature-item__icon {
+			position: absolute;
+			left: 0
+		
+	}
 	}
 
 .feature-item__title {
-		font-size: 1.875rem;
+		margin-top: .7rem;
+		font-size: 1.6rem;
 		font-weight: 300;
 		margin-bottom: .8rem;
+		text-align: center;
 
+	}
+
+@media (min-width: 530px){
+
+.feature-item__title {
+			font-size: 1.875rem;
+			margin-top: 1rem;
+			text-align: left
+
+	}
 	}
 
 
