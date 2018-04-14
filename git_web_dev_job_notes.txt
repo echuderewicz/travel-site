@@ -209,9 +209,12 @@ Section 9
     author also showed a way to merge from github, It looked a little complicated
     and I'll problably not use it as much.
 
+    here is a way to name a branch and check it out in one command
+    git checkout -b <name>
+
 Section 10
   Lecture 28
-
+    see above for how to name and checkout a new branch in one command
 
 
 
