@@ -209,8 +209,16 @@ Section 9
     author also showed a way to merge from github, It looked a little complicated
     and I'll problably not use it as much.
 
+    here is a way to name a branch and check it out in one command
+    git checkout -b <name>
+
 Section 10
   Lecture 28
+    see above for how to name and checkout a new branch in one command
+    Styled the our features section but didn't complete it (still had to finish the mobile view). Leveraged some of what was created before
+    to create styling, namely 2 column layout. This section was much less tedious than the previous section. 
+  Lecture 29: continuation of styling the Our Features Section
+
 
 
 
