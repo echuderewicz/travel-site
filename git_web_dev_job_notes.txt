@@ -263,8 +263,9 @@ Section 10 - Our Features Section
 
   Section 13: Finish Styling the site
 
-    Lecture 36:
-    Lecture 37: 
+    Lecture 36: Styling the Footer
+    
+    Lecture 37: Styling the Header
     Lecture 38:
 
   Section 14: Javascript Organization
