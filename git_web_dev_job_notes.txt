@@ -233,6 +233,9 @@ Section 10 - Our Features Section
       fairly straightforward regarding styling the left most testimonial
 
     Lecture 31: 
+      continued to style testimonials and made it look good for small screens.
+      This one had a bit of styling content that was leveraging previous material and I was getting lost
+
     Lecture 32:
 
   Section 12: Gulp Timeout (Automated Sprites)

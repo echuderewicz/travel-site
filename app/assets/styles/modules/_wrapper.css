@@ -4,6 +4,8 @@ added in Lecture 22*/
 .wrapper {
 
 
+
+
 	/*note the difference*/
 	overflow: hidden;
 
@@ -17,6 +19,17 @@ added in Lecture 22*/
 
 	&--medium{
 		max-width: 976px;
+	}
+
+	&--no-padding-until-medium {
+		padding-left: 0;
+		padding-right: 0;
+
+		@mixin atMedium {
+			padding-left: 18px;
+			padding-right: 18px;
+		}
+
 	}
 
 	/*for the baseline condition (small phone)

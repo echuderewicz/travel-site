@@ -3,6 +3,10 @@
 	/*part of creating proper clearfix method*/
 	@mixin clearfix;
 
+	&--t-padding {
+		padding-top: 80px;
+	}
+
 	/*this is part of gutter fix*/
 	&--gutters {
 		margin-right: -65px;
@@ -12,26 +16,32 @@
 		margin-right: -100px;
 	}
 
+	&--gutters-small{
+		margin-right: -45px;
+	}
+
 	/*this below is selecting descendant divs of .row--gutters
 	which in this case is the &__4 and &__8 columns*/
-
-
 	&--gutters > div{
 		padding-right: 65px;
 		/*without border box added the content
 		within __8 would get pushed to the following line
 		this is due to how browsers calculate width*/
-		
 	}
 
 	&--gutters-large > div{
 		padding-right: 100px;
 	}
 
+	/*this has to be placed underneath --gutter-large > div
+	remember that where you place the rule in css matters
+	I didn't understand this. refer to Lecture 31 it was performed
+	to get the testimonail blocks to sit slightly closer together*/
 
+	&--gutters-small > div {
+		padding-right: 45px;
 
-
-
+	}
 
 
 	&__b-margin-until-medium {
@@ -75,8 +85,16 @@
 		}
 	}
 
-	
+	/*begin equal height rules*/
 
-	
+	&--equal-height-at-medium {
+		@mixin atMedium {
+			display: flex;
+		}
 
+		& >div {
+			float: none;
+			display: flex;
+		}
+	}
 }
