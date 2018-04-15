@@ -227,7 +227,74 @@ Section 10 - Our Features Section
     compressed.
 
   Section 11 - Building Testimonial Section
-  
+
+    Lecture 30:
+    Lecture 31: 
+    Lecture 32:
+
+  Section 12: Gulp Timeout (Automated Sprites)
+
+    Lecture 33:
+    Lecture 34: 
+    Lecture 35:
+
+  Section 13: Finish Styling the site
+
+    Lecture 36:
+    Lecture 37: 
+    Lecture 38:
+
+  Section 14: Javascript Organization
+
+    Lecture 39:
+    Lecture 40: 
+    Lecture 41:
+    Lecture 42:
+
+  Section 15: Writing Javascript for our header menu
+
+    Lecture 43:
+    Lecture 44:
+    Lecture 45:
+
+  Section 16: Revealig elements on scroll
+
+    Lecture 46:
+    Lecture 47:
+
+  Section 17: Desktop Sticky Header
+
+    Lecture 48: 
+    Lecture 49:
+
+  Section 18: Build our own Modal/ Lightbox
+
+    Lecture 50;
+    Lecture 51:
+
+  Section 19: Finishing Touches
+
+    Lecture 52: 
+    Lecture 53:
+    Lecture 54:
+    Lecture 55:
+    Lecture 56:
+    Lecture 57:
+
+  Section 20: Building 
+
+    Lecture 58:
+    Lecture 59:
+    Lecture 60:
+    Lecture 61:
+
+  Section 21: Looking Forward
+
+    Lecture 62
+    Lecture 63
+
+
+
 
 
 
