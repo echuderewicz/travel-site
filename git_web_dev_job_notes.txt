@@ -278,6 +278,21 @@ Section 10 - Our Features Section
       you into another vim to update the commit message. See 
       instructions here: 
       https://help.github.com/articles/changing-a-commit-message/
+
+      also re: using VIM - hit 'i' for interactive (editing)
+      once done hit escape
+
+      also getting git to open instead of vim
+      https://www.youtube.com/watch?v=XD2O9EF58kI
+
+      export GIT_EDITOR="subl --wait --new-window"
+      (to note I save the above into .bashrc (actually had to create this))
+
+      obviously from above you have to have "subl" configured
+
+      getting subl to work
+      https://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/
+      sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
       
     Lecture 37: Styling the Header
     Lecture 38:
