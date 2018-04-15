@@ -246,7 +246,14 @@ Section 10 - Our Features Section
 
   Section 12: Gulp Timeout (Automated Sprites)
 
-    Lecture 33:
+    Lecture 33: sprite file generation
+      created a new sprites.js file to run a new gulp task
+      below is how we installed the npm package
+      npm install gulp-svg-sprite --save-dev
+      svg sprite package is really cool
+      There is documentation on github
+      
+
     Lecture 34: 
     Lecture 35:
 
