@@ -212,12 +212,30 @@ Section 9
     here is a way to name a branch and check it out in one command
     git checkout -b <name>
 
-Section 10
+Section 10 - Our Features Section
   Lecture 28
     see above for how to name and checkout a new branch in one command
     Styled the our features section but didn't complete it (still had to finish the mobile view). Leveraged some of what was created before
     to create styling, namely 2 column layout. This section was much less tedious than the previous section. 
   Lecture 29: continuation of styling the Our Features Section
+    Finished styling our features section
+    discussed the following git command
+    git merge our-features --no-ff (stands for no fast forward) - this didn't
+    quite work the way the video depicted it. I might want to test this out again.
+    it appears to be a way to consolidate all the commits that occurred while you
+    were in the branch. So in other words, the commit history isn't carried over. It
+    compressed.
+
+  Section 11 - Building Testimonial Section
+  
+
+
+
+
+
+
+
+
 
 
 
