@@ -32,6 +32,17 @@ added in Lecture 22*/
 
 	}
 
+	&--no-padding-until-large {
+		padding-left: 0;
+		padding-right: 0;
+
+		@mixin atLarge {
+			padding-left: 18px;
+			padding-right: 18px;
+		}
+
+	}
+
 	/*for the baseline condition (small phone)
 	nested wrappers will not have padding
 
