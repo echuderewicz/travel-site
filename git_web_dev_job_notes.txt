@@ -249,12 +249,15 @@ Section 10 - Our Features Section
     Lecture 33: sprite file generation
       created a new sprites.js file to run a new gulp task
       below is how we installed the npm package
+
       npm install gulp-svg-sprite --save-dev
-      svg sprite package is really cool
-      There is documentation on github
-      
+
+      svg sprite package has documentation on github
 
     Lecture 34: 
+      npm install gulp-rename --save-dev
+      lots of small tweaks to sprite automation
+
     Lecture 35:
 
   Section 13: Finish Styling the site
