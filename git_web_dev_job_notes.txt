@@ -264,7 +264,12 @@ Section 10 - Our Features Section
   Section 13: Finish Styling the site
 
     Lecture 36: Styling the Footer
-    
+      checked out a new site-footer branch
+      review use of span - I'm not sure why the author 
+      is using this
+      
+
+
     Lecture 37: Styling the Header
     Lecture 38:
 
