@@ -267,9 +267,18 @@ Section 10 - Our Features Section
       checked out a new site-footer branch
       review use of span - I'm not sure why the author 
       is using this
+
+      as a side note, I made some commit message mistakes
+      and successfully went back and fixed them with the 
+      following commands:
+
+      git commit --amend (for previous commits)
+      git rebase -i HEAD~3 (note that 3 represents the previous 3 commits, you'll open up in a text editor which will allow
+      you to configure a line from pick to reword, it will then send
+      you into another vim to update the commit message. See 
+      instructions here: 
+      https://help.github.com/articles/changing-a-commit-message/
       
-
-
     Lecture 37: Styling the Header
     Lecture 38:
 
