@@ -286,6 +286,12 @@ Section 10 - Our Features Section
       https://www.youtube.com/watch?v=XD2O9EF58kI
 
       export GIT_EDITOR="subl --wait --new-window"
+      to make this above permenent I placed into .profile within
+      home directory
+
+      I then added that directory to my $PATH variable
+      PATH=$PATH:~/.profile
+
       (to note I save the above into .bashrc (actually had to create this))
 
       obviously from above you have to have "subl" configured
