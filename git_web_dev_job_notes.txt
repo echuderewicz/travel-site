@@ -229,6 +229,8 @@ Section 10 - Our Features Section
   Section 11 - Building Testimonial Section
 
     Lecture 30:
+      git checkout -b testimonials
+      
     Lecture 31: 
     Lecture 32:
 
