@@ -230,7 +230,8 @@ Section 10 - Our Features Section
 
     Lecture 30:
       git checkout -b testimonials
-      
+      fairly straightforward regarding styling the left most testimonial
+
     Lecture 31: 
     Lecture 32:
 
