@@ -240,7 +240,9 @@ Section 10 - Our Features Section
       additional testimonial styling and configuring the content to adjust at a slightly 
       different breakpoint. Instead of testimonials stacking once screen get to medium the 
       author wanted have the stacking occur when the testimonials met the atLarge breakpoint.
-      This was due to the testimonials get "scrunched" together
+      This was due to the testimonials get "scrunched" together. 
+
+      We then merged the testimonials branch into master and then pushed this up to github.
 
   Section 12: Gulp Timeout (Automated Sprites)
 
