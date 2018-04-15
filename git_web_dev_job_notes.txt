@@ -259,6 +259,7 @@ Section 10 - Our Features Section
       lots of small tweaks to sprite automation
 
     Lecture 35:
+      npm install del --save-dev
 
   Section 13: Finish Styling the site
 
