@@ -274,7 +274,7 @@ Section 10 - Our Features Section
 
       git commit --amend (for previous commits)
       git rebase -i HEAD~3 (note that 3 represents the previous 3 commits, you'll open up in a text editor which will allow
-      you to configure a line from pick to reword, it will then send
+      you to configure a line from "pick" to "reword", it will then send
       you into another vim to update the commit message. See 
       instructions here: 
       https://help.github.com/articles/changing-a-commit-message/
@@ -282,25 +282,29 @@ Section 10 - Our Features Section
       also re: using VIM - hit 'i' for interactive (editing)
       once done hit escape
 
-      also getting git to open instead of vim
+      also getting git to open sublime instead of vim
       https://www.youtube.com/watch?v=XD2O9EF58kI
 
       export GIT_EDITOR="subl --wait --new-window"
       to make this above permenent I placed into .profile within
-      home directory
+      home directory. Every time the terminal opens it will read
+      the variable as result of .profile directory existing within
+      my $PATH
 
       I then added that directory to my $PATH variable
       PATH=$PATH:~/.profile
 
-      (to note I save the above into .bashrc (actually had to create this))
-
       obviously from above you have to have "subl" configured
 
-      getting subl to work
+      getting subl to work: follow the link below
+
       https://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/
+
       sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
       
     Lecture 37: Styling the Header
+
+
     Lecture 38:
 
   Section 14: Javascript Organization
