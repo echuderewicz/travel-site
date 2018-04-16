@@ -9,6 +9,11 @@
 
   &__text-content {
     position: absolute;
+    padding-top: 88px;
+
+    @mixin atMedium{
+      padding-top: 60;
+    }
 
     /*experiment
     background-color: yellow;*/
