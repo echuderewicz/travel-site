@@ -320,33 +320,46 @@ Section 10 - Our Features Section
 
     Lecture 40: The JS module Pattern and 'webpack'
 
-      installing webpack
-      npm install webpack -g (globally)
+      It should be noted that I had a lot of issues due to the current webpack version
+      not being compatible with the lecture. The problems occurred with running this
+      command
+      npm install webpack -g (you can't run this )
+      it's got to be:
+      sudo npm install -g webpack@3.8.1 (this is in the package.json file)
+      The notes below are a record of my troubles:
 
-      to run webpack just type the following into terminal:
-      webpack (din't quite work because webpack and it's cli version are 
-      two seperate files);
+              installing webpack
+              npm install webpack -g (globally)
 
-      I got this message so I said yes:
-      Would you like to install webpack-cli? (That will run npm install -D webpack-cli) (yes/NO)yes. This didn't work
+              to run webpack just type the following into terminal:
+              webpack (din't quite work because webpack and it's cli version are 
+              two seperate files);
 
-      So then I installed webpack as follows
-      sudo nmp install webpack --save-dev
-      then
-      sudo npm install -D webpack-cli --save-dev
+              I got this message so I said yes:
+              Would you like to install webpack-cli? (That will run npm install -D webpack-cli) (yes/NO)yes. This didn't work
 
-      npm WARN webpack-cli@2.0.14 requires a peer of webpack@^4.0.0 but none is installed. You must install peer dependencies yourself.
-npm WARN ajv-keywords@3.1.0 requires a peer of ajv@^6.0.0 but none is installed. You must install peer dependencies yourself.
-npm WARN travel-site@1.0.0 No description
-npm WARN travel-site@1.0.0 No repository field.
-npm WARN travel-site@1.0.0 No license field.
+              So then I installed webpack as follows
+              sudo nmp install webpack --save-dev
+              then
+              sudo npm install -D webpack-cli --save-dev
 
-    git stashing:
-      git stash
-      git stash list
-      git stash pop
+              npm WARN webpack-cli@2.0.14 requires a peer of webpack@^4.0.0 but none is installed. You must install peer dependencies yourself.
+                npm WARN ajv-keywords@3.1.0 requires a peer of ajv@^6.0.0 but none is installed. You must install peer dependencies yourself.
+                npm WARN travel-site@1.0.0 No description
+                npm WARN travel-site@1.0.0 No repository field.
+                npm WARN travel-site@1.0.0 No license field.
 
+        In addition to sort out things out and checkout master I learned stashing
+        I've included some commands here:
 
+        git stashing:
+          git stash
+          git stash list
+          git stash pop
+
+        had issues installing jquery
+        I removed the package-lock.json file as explained below:
+        https://github.com/npm/npm/issues/17340
 
     Lecture 41:
     Lecture 42:
