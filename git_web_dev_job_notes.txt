@@ -365,8 +365,9 @@ Section 10 - Our Features Section
       configured it so that 'webpack command can be called automagically'
       browser automagically reloads after saved .js file
 
-    Lecture 42:
-
+    Lecture 42: Babel
+      install babel:
+        npm install babel-core babel-loader babel-preset-es2015 --save-dev
 
   Section 15: Writing Javascript for our header menu
 
