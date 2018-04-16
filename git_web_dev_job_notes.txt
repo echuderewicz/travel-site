@@ -316,6 +316,7 @@ Section 10 - Our Features Section
   Section 14: Javascript Organization
 
     Lecture 39:
+      Quick lesson on objects. No updates were made to the travel-site
     Lecture 40: 
     Lecture 41:
     Lecture 42:
@@ -350,7 +351,7 @@ Section 10 - Our Features Section
     Lecture 56:
     Lecture 57:
 
-  Section 20: Building 
+  Section 20: Building and Deploying
 
     Lecture 58:
     Lecture 59:
@@ -361,6 +362,10 @@ Section 10 - Our Features Section
 
     Lecture 62
     Lecture 63
+
+
+    other notes: 
+    git config --global alias.hist "log --oneline --graph --decorate --all"
 
 
 
