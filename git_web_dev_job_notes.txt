@@ -361,8 +361,12 @@ Section 10 - Our Features Section
         I removed the package-lock.json file as explained below:
         https://github.com/npm/npm/issues/17340
 
-    Lecture 41:
+    Lecture 41: Automating our webpack setup
+      configured it so that 'webpack command can be called automagically'
+      browser automagically reloads after saved .js file
+
     Lecture 42:
+
 
   Section 15: Writing Javascript for our header menu
 
