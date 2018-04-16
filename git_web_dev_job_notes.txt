@@ -317,7 +317,37 @@ Section 10 - Our Features Section
 
     Lecture 39:
       Quick lesson on objects. No updates were made to the travel-site
-    Lecture 40: 
+
+    Lecture 40: The JS module Pattern and 'webpack'
+
+      installing webpack
+      npm install webpack -g (globally)
+
+      to run webpack just type the following into terminal:
+      webpack (din't quite work because webpack and it's cli version are 
+      two seperate files);
+
+      I got this message so I said yes:
+      Would you like to install webpack-cli? (That will run npm install -D webpack-cli) (yes/NO)yes. This didn't work
+
+      So then I installed webpack as follows
+      sudo nmp install webpack --save-dev
+      then
+      sudo npm install -D webpack-cli --save-dev
+
+      npm WARN webpack-cli@2.0.14 requires a peer of webpack@^4.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN ajv-keywords@3.1.0 requires a peer of ajv@^6.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN travel-site@1.0.0 No description
+npm WARN travel-site@1.0.0 No repository field.
+npm WARN travel-site@1.0.0 No license field.
+
+    git stashing:
+      git stash
+      git stash list
+      git stash pop
+
+
+
     Lecture 41:
     Lecture 42:
 
