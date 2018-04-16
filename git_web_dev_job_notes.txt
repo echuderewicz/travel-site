@@ -303,6 +303,13 @@ Section 10 - Our Features Section
       sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
       
     Lecture 37: Styling the Header
+      npm install postcss-hexrgba --save-dev
+      This command above allows you to write variables
+      within the rgba command, like so:
+      background-color: rgba($mainBlue, .3) instead of 
+      background-color: rgba(47, 85, 114, .3);
+
+      Completed styling the header for large screens
 
 
     Lecture 38:
