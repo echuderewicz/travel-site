@@ -1,9 +1,4 @@
-var $ = require('jquery');
+import MobileMenu from './modules/MobileMenu';
 
-var greeting = require('./modules/greeting.js');
 
-alert("browsersync reloads my browser with raspberry scent");
-
-console.log(greeting.name);
-
-//$("h1").remove();
+let mobileMenu = new MobileMenu();

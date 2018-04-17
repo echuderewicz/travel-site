@@ -371,9 +371,13 @@ Section 10 - Our Features Section
 
   Section 15: Writing Javascript for our header menu
 
-    Lecture 43:
-    Lecture 44:
+    Lecture 43: How to avoid jQuery spaghetti code
+      We were able to wire up the mobile menu with jquery
+      This was my favorite lecture thus far!
+
+    Lecture 44: Adjusting our mobile menu
     Lecture 45:
+
 
   Section 16: Revealig elements on scroll
 
