@@ -117,7 +117,7 @@ var MobileMenu = function () {
 
 		//toggleClass is a jquery method
 		//we don't want the this keyword to equal the element that
-		//triggered the event
+		//triggered the event...that is why we use bind
 
 	}, {
 		key: "toggleTheMenu",
