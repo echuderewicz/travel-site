@@ -381,6 +381,11 @@ Section 10 - Our Features Section
       
     Lecture 45: Animating the hamburger menu
 
+    ***had difficulty getting the header branch to merge
+    properly, stack overflow had a solution that worked perfectly
+
+    https://stackoverflow.com/questions/2763006/make-the-current-git-branch-a-master-branch
+
 
   Section 16: Revealig elements on scroll
 
