@@ -399,6 +399,7 @@ Section 10 - Our Features Section
   Section 17: Desktop Sticky Header
 
     Lecture 48: 
+      completed
     Lecture 49:
 
   Section 18: Build our own Modal/ Lightbox
