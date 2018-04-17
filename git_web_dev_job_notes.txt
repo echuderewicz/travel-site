@@ -394,6 +394,7 @@ Section 10 - Our Features Section
       got waypoints functioning properly
 
     Lecture 47:
+      tweaked waypoints
 
   Section 17: Desktop Sticky Header
 
