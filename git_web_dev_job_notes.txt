@@ -387,9 +387,12 @@ Section 10 - Our Features Section
     https://stackoverflow.com/questions/2763006/make-the-current-git-branch-a-master-branch
 
 
-  Section 16: Revealig elements on scroll
+  Section 16: Revealing elements on scroll
 
     Lecture 46:
+      npm install waypoints --save
+      got waypoints functioning properly
+
     Lecture 47:
 
   Section 17: Desktop Sticky Header
