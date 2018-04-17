@@ -401,6 +401,11 @@ Section 10 - Our Features Section
     Lecture 48: 
       completed
     Lecture 49:
+      setting up links to change color when your scroll
+      to the correct section of the page. 
+
+      to add smooth scrolling
+      npm install jquery-smooth-scroll --save
 
   Section 18: Build our own Modal/ Lightbox
 
