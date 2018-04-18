@@ -461,8 +461,10 @@ Section 10 - Our Features Section
         revision
 
         npm install gulp-usemin --save-dev
+        npm install gulp-rev gulp-cssnano gulp-uglify --save-dev
 
     Lecture 60: Go Live! Deploying our Site to GitHub Pages
+      
 
     Lecture 61: Git Tips - How to Handle (and avoid) Merge conflicts
 
