@@ -443,6 +443,7 @@ Section 10 - Our Features Section
       npm install gulp-modernizr --save-dev
 
     Lecture 56: Support for SVG Icons in Legacy Browsers (Part 2)
+      holy crap was this tedious....need to review this
 
     Lecture 57: Support for Flexbox Layout in Legacy Browsers
 
@@ -450,8 +451,16 @@ Section 10 - Our Features Section
   Section 20: Building and Deploying
 
     Lecture 58: Preparing Our Files for Go Live (Part 1)
+      npm install gulp-imagemin --save-dev
 
     Lecture 59: Preparing Our Files for Go Live (Part 2)
+      copy images to docs folder (it's also called dist but github uses docs)
+      3 goals:
+        Copy to docs folder
+        compress file-size
+        revision
+
+        npm install gulp-usemin --save-dev
 
     Lecture 60: Go Live! Deploying our Site to GitHub Pages
 
