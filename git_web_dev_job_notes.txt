@@ -430,6 +430,9 @@ Section 10 - Our Features Section
       need to add a class called 'lazyload'
 
     Lecture 53: Lazy Loading & Our Custom Waypoints
+      Custom waypoints get messed up because they are calculated
+      assuming all images are loaded. To fix this, you have to 
+      refresh the custom waypoints everytime a new image is loaded
 
     Lecture 54: Support for Responsive Images in Legacy Browser
 
