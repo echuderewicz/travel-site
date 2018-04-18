@@ -439,6 +439,8 @@ Section 10 - Our Features Section
       npm install picturefill --save
 
     Lecture 55: Support for SVG Icons in Legacy Browsers (Part 1)
+      npm install gulp-svg2png --save-dev
+      npm install gulp-modernizr --save-dev
 
     Lecture 56: Support for SVG Icons in Legacy Browsers (Part 2)
 
