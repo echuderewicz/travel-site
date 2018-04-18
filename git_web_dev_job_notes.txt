@@ -409,25 +409,34 @@ Section 10 - Our Features Section
 
   Section 18: Build our own Modal/ Lightbox
 
-    Lecture 50;
+    Lecture 50: Building a Modal from Scratch (part 1)
 
-    Lecture 51:
+    Lecture 51: Building a Modal from Scratch (part 2)
 
   Section 19: Finishing Touches
 
-    Lecture 52: 
-    Lecture 53:
-    Lecture 54:
-    Lecture 55:
-    Lecture 56:
-    Lecture 57:
+    Lecture 52: Lazy Loading Images for Faster Page Loads
+
+    Lecture 53: Lazy Loading & Our Custom Waypoints
+
+    Lecture 54: Support for Responsive Images in Legacy Browser
+
+    Lecture 55: Support for SVG Icons in Legacy Browsers (Part 1)
+
+    Lecture 56: Support for SVG Icons in Legacy Browsers (Part 2)
+
+    Lecture 57: Support for Flexbox Layout in Legacy Browsers
+
 
   Section 20: Building and Deploying
 
-    Lecture 58:
-    Lecture 59:
-    Lecture 60:
-    Lecture 61:
+    Lecture 58: Preparing Our Files for Go Live (Part 1)
+
+    Lecture 59: Preparing Our Files for Go Live (Part 2)
+
+    Lecture 60: Go Live! Deploying our Site to GitHub Pages
+
+    Lecture 61: Git Tips - How to Handle (and avoid) Merge conflicts
 
   Section 21: Looking Forward
 
