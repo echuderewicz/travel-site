@@ -21,6 +21,11 @@ added in Lecture 22*/
 		max-width: 976px;
 	}
 
+	&--narrow {
+		max-width: 470px;
+		
+	}
+
 	&--no-padding-until-medium {
 		padding-left: 0;
 		padding-right: 0;
@@ -42,6 +47,8 @@ added in Lecture 22*/
 		}
 
 	}
+
+
 
 	/*for the baseline condition (small phone)
 	nested wrappers will not have padding
