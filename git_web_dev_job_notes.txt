@@ -435,6 +435,8 @@ Section 10 - Our Features Section
       refresh the custom waypoints everytime a new image is loaded
 
     Lecture 54: Support for Responsive Images in Legacy Browser
+      git checkout -b browser-support
+      npm install picturefill --save
 
     Lecture 55: Support for SVG Icons in Legacy Browsers (Part 1)
 
