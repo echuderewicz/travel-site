@@ -420,6 +420,15 @@ Section 10 - Our Features Section
       Went to developer tools and looked at "Network" tab
       to see how fast images are loading
 
+      npm install lazysizes --save
+
+      We created a new file called Vendor.js. The reason
+      is for javascript packages that runs on their own without
+      any supplimental code like lazysizes. This is a best practice.
+
+      Need to prepend scrset to yield data-srcset and also
+      need to add a class called 'lazyload'
+
     Lecture 53: Lazy Loading & Our Custom Waypoints
 
     Lecture 54: Support for Responsive Images in Legacy Browser

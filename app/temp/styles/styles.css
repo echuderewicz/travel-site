@@ -746,10 +746,15 @@ added in Lecture 22*/
 @media (min-width: 1010px){
 
 .page-section--testimonials {
-			background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
-			background-size: cover
+			/*lazy load package will take our 'lazyload' classname
+			and alter it's name by calling it 'lazyloaded'. Our css
+			then targets this that what changed by the lazyload package*/
 		
 	}
+			.page-section--testimonials.lazyloaded {
+				background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+				background-size: cover;
+			}
 	}
 
 .headline {
