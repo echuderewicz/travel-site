@@ -410,6 +410,7 @@ Section 10 - Our Features Section
   Section 18: Build our own Modal/ Lightbox
 
     Lecture 50;
+
     Lecture 51:
 
   Section 19: Finishing Touches
