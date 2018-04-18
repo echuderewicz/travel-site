@@ -416,6 +416,9 @@ Section 10 - Our Features Section
   Section 19: Finishing Touches
 
     Lecture 52: Lazy Loading Images for Faster Page Loads
+    
+      Went to developer tools and looked at "Network" tab
+      to see how fast images are loading
 
     Lecture 53: Lazy Loading & Our Custom Waypoints
 
